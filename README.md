@@ -2,6 +2,7 @@
 Using cocos2d with javascript
 ## Requirement
 * Python
+
 ## How to install
 1. Clone/Download game from this repository
 2. Open your `terminal`
