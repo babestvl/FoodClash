@@ -33,7 +33,7 @@ var GameLayer = cc.LayerColor.extend({
 
 
         }
-        if (keyCode == cc.KEY.x && SPAttackID == 1 ) {
+        if (keyCode == cc.KEY.x) {
             this.shortcutOfSPAttackButton();
 
 
@@ -126,7 +126,6 @@ var GameLayer = cc.LayerColor.extend({
             'res/Mechanic/SPButtonPush.jpg',
             function() {
                 this.shortcutOfSPAttackButton();
-
             }, this);
         this.SPButton = new cc.Menu (this.SPAttack);
         this.SPButton.setPosition( new cc.Point (402.5, 51.5) );
@@ -319,17 +318,19 @@ var GameLayer = cc.LayerColor.extend({
     },
 
     shortcutOfSPAttackButton: function(){
-        SPHit = 3;
-        this.tap.runAction(cc.FadeIn.create(0));
-        attackID = 1;
-        SPAttackID = 0;
-        countSuccess = 0;
-        this.spLabel.setString('SP charge: '+countSuccess);
-        this.spHitLabel.setString('SP Hit: '+ SPHit);
-        this.hero.setPosition(new cc.Point(200,350));
-        this.monster.setPosition(new cc.Point (600,373));
-        this.eff1.setOpacity(0);
-        this.eff2.setOpacity(0);
+        if (SPAttackID == 1) {
+            SPHit = 3;
+            this.tap.runAction(cc.FadeIn.create(0));
+            attackID = 1;
+            SPAttackID = 0;
+            countSuccess = 0;
+            this.spLabel.setString('SP charge: '+countSuccess);
+            this.spHitLabel.setString('SP Hit: '+ SPHit);
+            this.hero.setPosition(new cc.Point(200,350));
+            this.monster.setPosition(new cc.Point (600,373));
+            this.eff1.setOpacity(0);
+            this.eff2.setOpacity(0);
+        }
     },
     
     heroAttackAni: function() {
