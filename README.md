@@ -1,6 +1,6 @@
 # **Food Clash**
 A game of Individual Software Development Process
-Developed using **Cocos2d-JS**
+developed using **Cocos2d-JS**
 
 ## **Project collaborators**
 1. [Nutthapol Sinthaveelert](https://github.com/babestvl)
