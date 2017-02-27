@@ -15,6 +15,7 @@ Click on this [website](https://goo.gl/QIPYnX)
 Python 2.7 or 3.5+, don't forget to add the Python executable to your PATH afterwards.
 
 **Steps**
+
 1. Clone/Download game from this repository
 2. Open your `terminal`
 3. Type `python -m SimpleHTTPServer`. For windows with Python 3.5+ type `python -m http.server`
