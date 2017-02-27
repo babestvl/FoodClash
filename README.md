@@ -4,7 +4,9 @@ Using cocos2d with javascript
 
 ## **Project collaborators**
 1. [Nutthapol Sinthaveelert](https://github.com/babestvl)
+
 ## **How to start**
+
 ### **Visit Site**
 Click on this [website](https://goo.gl/QIPYnX)
 ### **Run on your local machine**
