@@ -1,4 +1,4 @@
-# Original ISP(Individual Software Process) Game Project
+# Original ISP(Individual Software Development Process) Game Project
 Using cocos2d with javascript
 ## Requirement
 * Python
