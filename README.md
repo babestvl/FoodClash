@@ -1,6 +1,6 @@
 # **Food Clash**
 Individual Software Development Process Game Project
-Using cocos2d with javascript
+Using cocos2d with javascript.
 
 ## **Project collaborators**
 1. [Nutthapol Sinthaveelert](https://github.com/babestvl)
