@@ -12,7 +12,7 @@ Click on this [website](https://goo.gl/QIPYnX)
 ### **Run on your local machine**
 **Requirement**
 
-.Python 2.7 or 3.5+, don't forget to add the Python executable to your PATH afterwards.
+* Python 2.7 or 3.5+, don't forget to add the Python executable to your PATH afterwards.
 
 **Steps**
 
