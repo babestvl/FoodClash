@@ -1,12 +1,23 @@
-# Original ISP(Individual Software Process) Game Project
-Using cocos2d with javascript
-## Requirement
-* Python
+# **Food Clash**
+A game of Individual Software Development Process
+developed using **Cocos2d-JS**
 
-## How to install
-1. Clone/Download game from this repository
+## **Project collaborators**
+1. [Nutthapol Sinthaveelert](https://github.com/babestvl)
+
+## **How to start**
+
+### **I want to just play**
+Click [here](https://goo.gl/QIPYnX)
+### **Run on your local machine**
+**Requirements**
+
+* Python 2.7 or 3.5+, don't forget to add the Python executable to your PATH afterwards
+
+**Steps**
+
+1. Clone or download this repository
 2. Open your `terminal`
-3. Type `python -m SimpleHTTPServer`
-4. Open your browser
-5. Type `http://localhost:8000/`
-6. Enjoy!!
+3. Type `python -m SimpleHTTPServer`. For Windows with Python 3.5+ type `python -m http.server`
+4. Visit `http://localhost:8000/` on your browser
+
