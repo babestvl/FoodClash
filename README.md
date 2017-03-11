@@ -8,7 +8,7 @@ developed using **Cocos2d-JS**
 ## **How to start**
 
 ### **I want to just play**
-Click [here](https://goo.gl/QIPYnX)
+Click [here](https://goo.gl/CcZETZ)
 ### **Run on your local machine**
 **Requirements**
 
